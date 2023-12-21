@@ -1,20 +1,55 @@
-'''
-Write a program to check if two strings are Anagrams?
-Example:
-○ Input : Welcome
-○ Output : ceelmow
-'''
-str1="Welcome"
-str2="ceklmow"
-b=False
-if len(str1)==len(str2):
-    for i,j in zip(str1,str2):
-        if i in str2 and j in str1:
-            print(f"{i}={str2.index(i)},{j} {str1.index(j)}")
-            b=True
-    if b:
-        print("The givne input is anagram")
-else:
-    print("The given string are not anagram")
+
+# print(str3+"+",str4)
+# b=False
 # for i,j in zip(str1,str2):
 #     print(i,j)
+
+# if 'w' in str2:
+#     print(f"it is presetn {str2.index('w')}")
+str1=st1="welcome"
+str2=st2="ceelmow"
+b=True
+if len(str1)==len(str2):
+  for i,j in zip(str1,str2):
+    # print(i,j)
+    if i in st2 and j in st1:
+    #   print(i,j)
+      b=True
+    else:
+      b=False
+      break
+
+if b:
+    print("Anagram")
+else:
+    print("Not Anagram")
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  # for i in str1:
+  #     if i in st2:
+  #       print(i,st2.index(i))
+  #       b=True
+  #     else:
+  #           b=False
+  #           print("1ka ",i)
+  #           break
+  # for j in str2:
+  #     if j in str1:
+  #         b=True
+  #     else:
+  #           print(j)
+  #           b=False
+  #           break
+
+
