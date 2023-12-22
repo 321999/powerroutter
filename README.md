@@ -1,8 +1,13 @@
 # To run the python code 
 ## step 1
 ```
-git clone 
+git clone https://github.com/321999/powerroutter.git
 ```
+## step 2
+```
+cd powerroutter
+```
+KNOW RUN THE CODE 
 
 
 
